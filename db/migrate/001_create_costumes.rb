@@ -6,7 +6,7 @@ class CreateCostumes < ActiveRecord::Migration
     #
       create_table :costumes do |t|
         t.string :name
+        end
   end
-end
 
 end
